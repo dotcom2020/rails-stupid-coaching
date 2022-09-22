@@ -1,0 +1,33 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body {
+  font-family: 'Irish Grover';
+ }
+
+ .container {
+  width:50%;
+  margin: auto;
+ }
+.answer-card {
+  border-left: 2px solid gray;
+  padding: 10px 10px;
+  background-color: rgb(238, 238, 139);
+  width: 25%;
+}
+
+ #btn {
+  border: 1px solid rgb(68, 68, 2) ;
+  background-color: white;
+  color: rgb(68, 68, 3);
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 50px;
+  &:hover {
+    border: 1px solid rgb(68, 68, 2) ;
+    background-color: rgba(255, 255, 255, 0.641);
+    color: rgb(68, 68, 3);
+    }
+ }
